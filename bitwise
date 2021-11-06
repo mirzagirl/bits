@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int i=20,j=21;
+cout<<__builtin_popcount(i&j);
+}
+// 0 to 4294967295
+// An unsigned integer is a 32-bit datum that encodes a nonnegative integer in the range [0 to 4294967295].
+
+
+/**
+ * __builtin_parity(x): This function is used to check the parity of a number. This function returns true(1) if the number has odd parity else it returns false(0) for even parity. 
+__builtin_clz(x): This function is used to count the leading zeros of the integer. Note : clz = count leading zero’s 
+Example: It counts number of zeros before the first occurrence of one(set bit).
+__builtin_ctz(x): This function is used to count the trailing zeros of the given integer. Note : ctz = count trailing zeros.
+Data Type	Size (in bytes)	Range
+short int	2	-32,768 to 32,767
+unsigned short int	2	0 to 65,535
+unsigned int	4	0 to 4,294,967,295
+int	4	-2,147,483,648 to 2,147,483,647
+long int	4	-2,147,483,648 to 2,147,483,647
+unsigned long int	8	0 to 4,294,967,295
+long long int	8	-(2^63) to (2^63)-1
+unsigned long long int	8	0 to 18,446,744,073,709,551,615
+signed char	1	-128 to 127
+unsigned char	1	0 to 255
+float	4	 
+double	8	 
+long double	12	 
+wchar_t	2 or 4	1 wide character
+**/
