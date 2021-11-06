@@ -27,6 +27,8 @@ int main(){
 //__builtin_popcountll()
   cout<<((16>>4)&1);
  //char a into A will be 5th bit set incase of a ??? and not set in case of  A
+  //upper case to lower case
+  
  char ch=('A'|' ');
  //output will be =a
  
