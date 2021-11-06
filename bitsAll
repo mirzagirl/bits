@@ -18,7 +18,7 @@ int main(){
   //msb find
      cout<<log(19)/log(2);
      cout<<int(log(19)/log(2));
-// to toggle
+// to toggle 01 1 ??11 0(XOR)
   int n=17;
   n=n^(1<<4);
   cout<<n;
